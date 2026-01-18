@@ -68,3 +68,44 @@
     font-size: 0.90rem;
     color: rgba(243, 241, 241, 0.335);
 }
+
+@media screen and (max-width:576px) {
+
+    .container {
+        margin-top: 20px;
+        display: grid;
+        gap: 10px;
+        grid-template-areas:
+            "sidebar sidebar"
+            "sidebar sidebar "
+            "main1 main1 "
+            "main1 main1 "
+            "main2 main2 "
+            "main2 main2 "
+            "footer-text footer-text "
+            "footer-text footer-text "
+            "footer-aside footer-aside "
+            "footer-aside footer-aside "
+
+        ;
+    }
+
+    .vanila-h2 {
+        font-size: 1rem;
+        color: white;
+        text-align: center;
+    }
+
+
+    .container-card {
+        background-color: rgba(53, 17, 101, 0.4);
+        padding: 10px 10px;
+        border-radius: 20px;
+    }
+
+    .vanila-css {
+        margin-top: 70px;
+        padding: 10px 10px;
+    }
+
+}
