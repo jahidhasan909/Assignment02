@@ -9,12 +9,13 @@
         integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="styles/tailwind.css">
+    <link rel="stylesheet" href="styles/vanila.css">
     <title>Assignment02</title>
 </head>
 
-<body>
+<body class="max-w-[1600px] mx-auto bg-[#1a0b2e]">
     <!-- hero section start -->
-    <header class="max-w-[1600px] mx-auto">
+    <header class="mx-auto">
         <div class="mx-auto justify-center items-center">
             <nav class="flex justify-around py-7 bg-[#1A0B2E] items-center">
                 <h2 class="text-3xl font-bold font-inter"><span class="text-white">Tech</span><span
@@ -29,13 +30,117 @@
                     class="bg-linear-to-tr  from-[#f7e93f] via-[#fb09b4] to[#9100f8] text-white rounded-4xl px-3 py-2 text-[1rem] ">Subscribe
                     <i class="fa-solid fa-arrow-right"></i></button>
             </nav>
+
+            <div class="relative">
+                <img class="" src="assets/hero-bg.png" alt="">
+                <div class="relative text-center">
+                    <!-- Animation card img start -->
+                    <div class="transform ease-in-out hover:scale-x-107 hover:scale-y-107">
+                        <span class="bg-green-400 rounded-4xl py-2 px-3 absolute z-20 -top-150 left-225">New</span>
+                        <img class="absolute  left-1/2 -translate-1/2 -top-117 max-w-96 z-10  "
+                            src="assets/hero-circle.png" alt="">
+                        <img class="absolute -top-117 left-1/2 -translate-1/2 max-w-48 z-10" src="assets/microphone.png"
+                            alt="">
+                    </div>
+
+
+                    <div class="items-center relative -top-66 z-20">
+                        <h1 class="text-white font-bold text-5xl font-inter">TechWave</h1>
+                        <p class="text-gray-400 mt-2 font-inter">Your daily dose of tech insights, productivity hacks,
+                            and personal
+                            growth
+                        </p>
+                        <button
+                            class="bg-linear-to-tr  from-[#f7e93f] via-[#fb09b4] to[#9100f8] text-white rounded-4xl px-3 py-2 text-[1rem] mt-5 mr-2 font-inter"><i
+                                class="fa-brands fa-spotify" style="color: #ffffff;"></i> Listen
+                            on Spotify</button>
+                        <button class="bg-transparent border border-green-400 px-3 py-2 rounded-4xl text-green-400"><i
+                                class="fa-regular fa-envelope font-inter" style="color: #669c35;"></i>
+                            Subscribe</button>
+                    </div>
+                </div>
+            </div>
+
         </div>
 
     </header>
     <!-- main design start -->
-    <main>
-        <section></section>
-        <section></section>
+    <main class="mx-auto px-44">
+
+        <section class="mx-auto text-center">
+            <h2 class="text-white font-bold text-4xl font-inter">About the Podcast</h2>
+            <p class="text-gray-400 mt-3.5 text-[1rem]">TechWave is your go-to podcast for staying ahead in the
+                fast-paced world of
+                technology. <br>
+                We break down complex topics into digestible insights, explore productivity strategies that actually
+                work,<br>
+                and share stories of personal growth from industry leaders.
+                <br> <br>
+                Join thousands of young professionals and tech enthusiasts who start their day with TechWave.
+            </p>
+            <hr>
+            <div class="grid grid-cols-4 mt-28 items-center text-center">
+                <div>
+                    <h1 class="text-green-400 font-bold font-inter text-4xl">150K+</h1>
+                    <p class="text-gray-400 font-inter">Monthly Listeners</p>
+                </div>
+                <div>
+                    <h1 class="text-green-400 font-bold font-inter text-4xl">200+</h1>
+                    <p class="text-gray-400 font-inter">Episodes Published</p>
+                </div>
+                <div>
+                    <h1 class="text-green-400 font-bold font-inter text-4xl">4.9★</h1>
+                    <p class="text-gray-400 font-inter">Average Rating</p>
+                </div>
+                <div>
+                    <h1 class="text-green-400 font-bold font-inter text-4xl">50+</h1>
+                    <p class="text-gray-400 font-inter">Industry Experts</p>
+                </div>
+            </div>
+        </section>
+         
+        <!-- Choose TechWave section with vanila css -->
+        <section class="bg-[#230e3d] vanila-css font-inter">
+            <h2 class="vanila-h2">Why Choose TechWave</h2>
+            <div class="container">
+                <aside class="sidebar container-card">
+                    <img src="assets/headphone.png" alt="">
+                    <h5 class="container-h5">Premium Audio Quality</h5>
+                    <p class="container-p">Experience crystal-clear sound with <br> professional-grade recording <br>
+                        equipment and expert
+                        audio
+                        <br> engineering. Every episode is mastered <br> for optimal listening across all devices <br>
+                        and
+                        platforms.
+                    </p>
+                </aside>
+                <div class="main1 container-card">
+                    <img src="assets/device.png" alt="">
+                    <h5 class="container-h5">Mobile Friendly</h5>
+                    <p class="container-p">Listen on the go with seamless mobile experience and offline downloads.</p>
+                </div>
+                <div class="main2 container-card">
+                    <img src="assets/location.png" alt="">
+                    <h5 class="container-h5">Global Community</h5>
+                    <p class="container-p">Connect with tech enthusiasts from over 120 countries worldwide.</p>
+                </div>
+                <div class="footer-text container-card">
+                    <img src="assets/exl.png" alt="">
+                    <h5 class="container-h5">Exclusive Interviews</h5>
+                    <p class="container-p">Get unprecedented access to industry titans, startup founders, and tech
+                        visionaries. Our host
+                        secures exclusive conversations you won't find anywhere else, diving deep into their journeys,
+                        failures, and success strategies.</p>
+                </div>
+                <aside class="footer-aside container-card">
+                    <img src="assets/resource.png" alt="">
+                    <h5 class="container-h5">Rich Resources</h5>
+                    <p class="container-p">Access show notes, transcripts, and additional learning materials for every
+                        episode.</p>
+                </aside>
+            </div>
+        </section>
+        
         <section></section>
         <section></section>
     </main>

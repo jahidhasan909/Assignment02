@@ -1,0 +1,70 @@
+.sidebar {
+    grid-area: sidebar;
+}
+
+.main1 {
+    grid-area: main1;
+}
+
+.main2 {
+    grid-area: main2;
+}
+
+.footer-text {
+    grid-area: footer-text;
+}
+
+.footer-aside {
+    grid-area: footer-aside;
+}
+
+
+.vanila-css {
+    margin-top: 260px;
+    padding: 120px 200px;
+}
+
+.container {
+    margin-top: 40px;
+    display: grid;
+    gap: 30px;
+    grid-template-areas:
+        "sidebar main1 main1"
+        "sidebar main2 main2"
+        "footer-text footer-text footer-aside"
+
+    ;
+}
+
+
+/* shared styles */
+
+
+.vanila-h2 {
+    font-size: 3rem;
+    color: white;
+    text-align: center;
+}
+
+.container img {
+    max-width: 60px;
+}
+
+.container-card {
+    background-color: rgba(53, 17, 101, 0.4);
+    padding: 40px 40px;
+    border-radius: 20px;
+}
+
+.container-h5 {
+    color: white;
+    font-size: 1.20rem;
+    font-style: bold;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.container-p {
+    font-size: 0.90rem;
+    color: rgba(243, 241, 241, 0.335);
+}
